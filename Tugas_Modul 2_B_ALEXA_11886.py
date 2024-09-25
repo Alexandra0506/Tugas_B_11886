@@ -2,8 +2,7 @@ import streamlit as st
 import pickle
 import os
 
-model_path = r"C:\Users\Acer\OneDrive\Documents\Tugas cool yeah sekar\SEMESTER 5\Pembelajaran Mesin\Tugas_B_11886"
-model=os.path.join(model_path,'GBT_heartDisease_model.pkl')
+model_path = 'GBT_heartDisease_model.pkl'
 
 with open(model,'rb') as f:
     loaded_model = pickle.load(f)
